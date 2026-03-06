@@ -1,3 +1,14 @@
 {
-  "outputDirectory": "www"
+  "outputDirectory": "www",
+  "headers": [
+    {
+      "source": "/.well-known/atproto-did",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    }
+  ]
 }
