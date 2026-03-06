@@ -1,4 +1,4 @@
-# isicloud5gb.lol - is iCloud's free tier still 5GB?
+# [isicloud5gb.lol](https://isicloud5gb.lol) - Is iCloud's Free tier still 5GB?
 
 **Yes.**
 
@@ -28,14 +28,18 @@ This entire website has more meta tags than content, because the answer is one w
 
 ## Contributing
 
-There's not much to contribute. The answer is yes.
+There's not much to contribute. The answer is *yes*.
 
-However, right now the wishlist is:
+To help us on our mission to deliver this answer, the wishlist is:
 - a11y
 - l10n
 - design accommodations
 
-Spread the suffering and translate this website into YOUR language.
+Spread the suffering:
+- open a PR today
+- share this website on your socials
+- send it to your family's group chat
+- ask grandma if she ran out of iCloud storage today and keeps deleting those family archive pics that have never been backed up
 
 But if the Apple ever changes the answer to this question, open a PR and we'll shut the whole site down.
 
