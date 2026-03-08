@@ -5,21 +5,26 @@
 ## FAQ
 
 **Q: Is it still 5GB?**
+
 A: Yes.
 
 **Q: What about now?**
 A: Still 5GB.
 
 **Q: Has it changed since the last time I checked?**
+
 A: No. It's 5GB.
 
 **Q: Surely a $3 trillion company can-**
+
 A: 5GB.
 
 **Q: Google gives 15GB for free.**
+
 A: That's not a question, but yes, it does. Tripling Apple's offering. For free.
 
 **Q: Will Apple ever increase it?**
+
 A: Check back at [isicloud5gb.lol](https://isicloud5gb.lol). If the site is still up, the answer is still no.
 
 ## Tech Stack
@@ -47,4 +52,4 @@ But if the Apple ever changes the answer to this question, open a PR and we'll s
 
 MIT.
 
-Because unlike iCloud storage, this is actually free.
+Because unlike iCloud storage, this is actually *free*.
