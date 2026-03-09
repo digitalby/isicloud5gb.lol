@@ -298,6 +298,10 @@
       padding: 2rem;
       color: #334455;
       font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      align-items: center;
     }
 
     footer a {
@@ -307,6 +311,35 @@
 
     footer a:hover {
       color: #8899aa;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 0.7rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0.15rem;
+    }
+
+    .footer-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.5rem 0.95rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: linear-gradient(135deg, rgba(78, 205, 196, 0.2), rgba(168, 216, 255, 0.16));
+      color: #cde8ff;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .footer-pill:hover {
+      color: #ffffff;
+      transform: translateY(-1px);
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
     }
   </style>
 </head>
@@ -397,6 +430,16 @@
 
   <footer>
     <p>Not affiliated with Apple. Just disappointed.</p>
+    <p>
+      Maintained by Yury Vashchylau —
+      <a href="https://x.com/vashchylau" target="_blank" rel="noopener noreferrer">Twitter</a>,
+      <a href="https://github.com/digitalby" target="_blank" rel="noopener noreferrer">GitHub</a>,
+      <a href="https://www.linkedin.com/in/digitalby" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+    <div class="footer-links">
+      <a class="footer-pill" href="https://yuryv.info" target="_blank" rel="noopener noreferrer">🌐 yuryv.info</a>
+      <a class="footer-pill" href="https://digitalby.me" target="_blank" rel="noopener noreferrer">✨ DIGITALBY</a>
+    </div>
   </footer>
 
   <script>
