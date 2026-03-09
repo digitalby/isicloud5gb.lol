@@ -98,7 +98,17 @@
       50% { transform: translateY(-12px); }
     }
 
-    h1 {
+    .yes-button {
+      border: none;
+      background: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      font: inherit;
+    }
+
+    .yes-text {
       font-size: clamp(6rem, 20vw, 12rem);
       font-weight: 900;
       letter-spacing: -0.03em;
@@ -109,6 +119,17 @@
       background-clip: text;
       margin-bottom: 0.5rem;
       user-select: all;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem;
+      line-height: 1;
+    }
+
+    .yes-button:focus-visible {
+      outline: 3px solid rgba(168, 216, 255, 0.8);
+      outline-offset: 10px;
+      border-radius: 12px;
     }
 
     h2 {
@@ -362,7 +383,15 @@
       <img src="/isicloud5gb.png" alt="" width="1024" height="1024" decoding="async" fetchpriority="high">
     </div>
 
-    <h1>Yes.</h1>
+    <h1>
+      <button class="yes-button yes-text" type="button" aria-label="Play yes sound" onclick="playYesSound()">Yes.</button>
+    </h1>
+
+    <audio id="yes-audio" preload="none">
+      <source src="./audio/yes-placeholder.mp3" type="audio/mpeg">
+      <source src="./audio/yes-placeholder.m4a" type="audio/mp4">
+      Your browser does not support the audio element.
+    </audio>
 
     <h2>Is iCloud's free tier still 5GB?</h2>
 
@@ -465,6 +494,18 @@
           btn.classList.remove('copied');
           btn.querySelector('span').textContent = 'Copy Link';
         }, 2000);
+      });
+    }
+
+    function playYesSound() {
+      const yesAudio = document.getElementById('yes-audio');
+      if (!yesAudio) {
+        return;
+      }
+
+      yesAudio.currentTime = 0;
+      yesAudio.play().catch(() => {
+        // Placeholder file may be empty until a real audio clip is added.
       });
     }
   </script>
