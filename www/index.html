@@ -192,6 +192,17 @@
       margin-bottom: 2rem;
     }
 
+    .viral-prompt {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #c8d6e5;
+      line-height: 1.5;
+    }
+
+    .viral-prompt strong {
+      color: #fff;
+    }
+
     .share-section p {
       font-size: 0.85rem;
       color: #556677;
@@ -238,6 +249,49 @@
     .copy-btn.copied {
       border-color: #4ecdc4;
       color: #4ecdc4;
+    }
+
+    .community-section {
+      margin-bottom: 1.5rem;
+    }
+
+    .community-section p {
+      font-size: 0.85rem;
+      color: #556677;
+      margin-bottom: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .userbar-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    .userbar {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.8rem;
+      border-radius: 6px;
+      border: 1px solid rgba(168, 216, 255, 0.3);
+      background: rgba(15, 52, 96, 0.45);
+      color: #d7ecff;
+      text-decoration: none;
+      font-size: 0.75rem;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+
+    .userbar:hover {
+      border-color: rgba(255, 255, 255, 0.55);
+      background: rgba(30, 90, 150, 0.55);
+      transform: translateY(-1px);
+      color: #fff;
     }
 
     footer {
@@ -326,6 +380,17 @@
           <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
           <span>Copy Link</span>
         </button>
+      </div>
+      <p class="viral-prompt"><strong>Send this to your group chat</strong> — or your mom who's running out of iCloud storage.</p>
+    </div>
+
+    <div class="community-section">
+      <p>Follow / Share everywhere</p>
+      <div class="userbar-links">
+        <a class="userbar" href="https://twitter.com/isicloud5gb" target="_blank" rel="noopener noreferrer">X @isicloud5gb</a>
+        <a class="userbar" href="https://bsky.app/profile/isicloud5gb.lol" target="_blank" rel="noopener noreferrer">Bluesky @isicloud5gb.lol</a>
+        <a class="userbar" href="https://discord.gg/B2H737b73S" target="_blank" rel="noopener noreferrer">Discord</a>
+        <a class="userbar" href="https://t.me/isicloud5gb_bot" target="_blank" rel="noopener noreferrer">Telegram bot</a>
       </div>
     </div>
   </main>
