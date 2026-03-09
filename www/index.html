@@ -335,11 +335,7 @@
       <button class="yes-button yes-text" type="button" aria-label="Play yes sound" onclick="playYesSound()">Yes.</button>
     </h1>
 
-    <audio id="yes-audio" preload="none">
-      <source src="./audio/yes-placeholder.mp3" type="audio/mpeg">
-      <source src="./audio/yes-placeholder.m4a" type="audio/mp4">
-      Your browser does not support the audio element.
-    </audio>
+    <audio id="yes-audio" preload="none"></audio>
 
     <h2>Is iCloud's free tier still 5GB?</h2>
 
@@ -451,16 +447,32 @@
       });
     }
 
-    function playYesSound() {
-      const yesAudio = document.getElementById('yes-audio');
-      if (!yesAudio) {
-        return;
-      }
+    const YES_CLIPS = [
+      '001_clip_03_w1.mp3',
+      '002_clip_03_w2.mp3',
+      '004_clip_04_w2.mp3',
+      '005_clip_04_w3.mp3',
+      '006_clip_05_w1.mp3',
+      '007_clip_05_w2.mp3',
+      '008_clip_05_w3.mp3',
+      '011_clip_06_w2.mp3',
+      '012_clip_06_w3.mp3',
+      '013_clip_06_w4.mp3',
+      '040_clip_21_w1.mp3',
+      '041_clip_21_w2.mp3',
+      '042_clip_21_w3.mp3',
+      '043_clip_22_w1.mp3',
+      '044_clip_22_w2.mp3',
+      '045_clip_22_w3.mp3',
+      '046_clip_22_w4.mp3',
+      '051_clip_23_w2.mp3',
+    ];
 
-      yesAudio.currentTime = 0;
-      yesAudio.play().catch(() => {
-        // Placeholder file may be empty until a real audio clip is added.
-      });
+    function playYesSound() {
+      var audio = document.getElementById('yes-audio');
+      var clip = YES_CLIPS[Math.floor(Math.random() * YES_CLIPS.length)];
+      audio.src = '/audio/clips/' + clip;
+      audio.play().catch(function() {});
     }
   </script>
 
