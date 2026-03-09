@@ -77,7 +77,7 @@
 
     .cloud-icon {
       width: clamp(88px, 18vw, 132px);
-      aspect-ratio: 1 / 1;
+      aspect-ratio: 1;
       margin-bottom: 1rem;
       animation: float 3s ease-in-out infinite;
       display: inline-block;
@@ -162,7 +162,6 @@
     .timeline {
       display: flex;
       flex-direction: column;
-      gap: 0;
       margin-bottom: 2.5rem;
       position: relative;
     }
@@ -221,10 +220,6 @@
       color: #ff6b6b;
     }
 
-    .share-section {
-      margin-bottom: 2rem;
-    }
-
     .viral-prompt {
       margin-top: 1rem;
       font-size: 1rem;
@@ -234,14 +229,6 @@
 
     .viral-prompt strong {
       color: #fff;
-    }
-
-    .share-section p {
-      font-size: 0.85rem;
-      color: #556677;
-      margin-bottom: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
     }
 
     .share-buttons {
@@ -288,48 +275,9 @@
       margin-bottom: 1.5rem;
     }
 
-    .community-section p {
-      font-size: 0.85rem;
-      color: #556677;
-      margin-bottom: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-    }
-
-    .userbar-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.6rem;
-    }
-
-    .userbar {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.45rem 0.8rem;
-      border-radius: 6px;
-      border: 1px solid rgba(168, 216, 255, 0.3);
-      background: rgba(15, 52, 96, 0.45);
-      color: #d7ecff;
-      text-decoration: none;
-      font-size: 0.75rem;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      font-weight: 700;
-      transition: all 0.2s ease;
-    }
-
-    .userbar:hover {
-      border-color: rgba(255, 255, 255, 0.55);
-      background: rgba(30, 90, 150, 0.55);
-      transform: translateY(-1px);
-      color: #fff;
-    }
-
     footer {
       padding: 2rem;
-      color: #334455;
+      color: #ccaacc;
       font-size: 0.8rem;
       display: flex;
       flex-direction: column;
@@ -338,12 +286,12 @@
     }
 
     footer a {
-      color: #445566;
+      color: #cc55cc;
       text-decoration: none;
     }
 
     footer a:hover {
-      color: #8899aa;
+      color: #cc00cc;
     }
 
     .footer-links {
@@ -365,11 +313,11 @@
       color: #cde8ff;
       font-weight: 600;
       letter-spacing: 0.01em;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
     }
 
     .footer-pill:hover {
-      color: #ffffff;
+      color: #fff;
       transform: translateY(-1px);
       border-color: rgba(255, 255, 255, 0.3);
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
@@ -437,36 +385,42 @@
       </div>
     </div>
 
-    <div class="share-section">
-      <p>Spread the suffering</p>
+    <div class="community-section">
+      <p class="viral-prompt"><strong>Send this to your group chat:</strong></p>
+      <p class="viral-prompt">(or your mom who always keeps running out of storage)</p>
       <div class="share-buttons">
-        <a class="share-btn" href="https://twitter.com/intent/tweet?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.&url=https%3A%2F%2Fisicloud5gb.lol" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <a class="share-btn" href="https://twitter.com/isicloud5gb" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-x-twitter"/></svg>
           X / Twitter
         </a>
-        <a class="share-btn" href="https://bsky.app/intent/compose?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.601 6.486.636 2.38 2.912 3.166 4.996 2.946-3.465.532-6.508 2.294-4.076 6.528 2.668 4.64 5.705 3.416 7.347 2.46C10.563 21.1 11.59 19.56 12 18.6c.41.96 1.437 2.5 3.132 3.588 1.642.956 4.679 2.18 7.347-2.46 2.432-4.234-.611-5.996-4.076-6.528 2.084.22 4.36-.566 4.996-2.946C23.622 9.418 24 4.458 24 3.768c0-.688-.139-1.86-.902-2.203-.659-.3-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/></svg>
+        <a class="share-btn" href="https://bsky.app/profile/isicloud5gb.lol" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-bluesky"/></svg>
           Bluesky
         </a>
         <a class="share-btn" href="https://www.threads.net/intent/post?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol" target="_blank" rel="noopener noreferrer">
-          <svg viewBox="0 0 24 24"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.03-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.59 12c.025 3.086.718 5.496 2.057 7.164 1.432 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.751-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.96-.065-1.187.408-2.262 1.33-3.025.86-.712 2.048-1.118 3.535-1.21 1.088-.066 2.105.016 3.033.245-.096-1.543-.737-2.373-2.007-2.585-1.327-.221-2.594.143-3.164.527l-1.107-1.69c.835-.547 2.466-1.088 4.378-.828 1.985.27 3.449 1.433 3.768 3.983.143.085.282.174.417.27 1.2.852 2.066 1.907 2.5 3.055.628 1.66.674 4.318-1.404 6.35-1.834 1.796-4.087 2.584-7.295 2.607z"/></svg>
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-threads"/></svg>
           Threads
         </a>
+        <a class="share-btn" href="https://www.linkedin.com/company/isicloud5gb" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-linkedin"/></svg>
+          LinkedIn
+        </a>
+        <a class="share-btn" href="https://discord.gg/B2H737b73S" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-discord"/></svg>
+          Discord
+        </a>
+        <a class="share-btn" href="https://t.me/isicloud5gb_bot" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-telegram"/></svg>
+          Telegram bot
+        </a>
+        <a class="share-btn" href="https://github.com/digitalby/isicloud5gb.lol" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-github"/></svg>
+          GitHub
+        </a>
         <button class="share-btn copy-btn" onclick="copyLink(this)">
-          <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+          <svg viewBox="0 0 24 24"><use href="/assets/icons/sprite.svg#icon-clipboard"/></svg>
           <span>Copy Link</span>
         </button>
-      </div>
-      <p class="viral-prompt"><strong>Send this to your group chat</strong> — or your mom who's running out of iCloud storage.</p>
-    </div>
-
-    <div class="community-section">
-      <p>Follow / Share everywhere</p>
-      <div class="userbar-links">
-        <a class="userbar" href="https://twitter.com/isicloud5gb" target="_blank" rel="noopener noreferrer">X @isicloud5gb</a>
-        <a class="userbar" href="https://bsky.app/profile/isicloud5gb.lol" target="_blank" rel="noopener noreferrer">Bluesky @isicloud5gb.lol</a>
-        <a class="userbar" href="https://discord.gg/B2H737b73S" target="_blank" rel="noopener noreferrer">Discord</a>
-        <a class="userbar" href="https://t.me/isicloud5gb_bot" target="_blank" rel="noopener noreferrer">Telegram bot</a>
       </div>
     </div>
   </main>
