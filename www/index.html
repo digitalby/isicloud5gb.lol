@@ -23,8 +23,9 @@
   <meta name="twitter:description" content="Yes. Apple still gives you a whopping 5GB of free iCloud storage. Unbelievable.">
   <meta name="twitter:image" content="https://isicloud5gb.lol/og.png">
 
-  <!-- Favicon -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="/isicloud5gb.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/isicloud5gb.png">
 
   <!-- Canonical -->
   <link rel="canonical" href="https://isicloud5gb.lol">
@@ -75,10 +76,21 @@
     }
 
     .cloud-icon {
-      font-size: 5rem;
+      width: clamp(88px, 18vw, 132px);
+      aspect-ratio: 1 / 1;
       margin-bottom: 1rem;
       animation: float 3s ease-in-out infinite;
-      filter: drop-shadow(0 0 20px rgba(100, 180, 255, 0.4));
+      display: inline-block;
+      filter: drop-shadow(0 0 22px rgba(100, 180, 255, 0.45));
+    }
+
+    .cloud-icon img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      border-radius: 22px;
+      background: radial-gradient(circle at center, rgba(120, 190, 255, 0.26) 0%, rgba(120, 190, 255, 0.08) 44%, rgba(120, 190, 255, 0) 72%);
     }
 
     @keyframes float {
@@ -346,7 +358,9 @@
 <body>
 
   <main>
-    <div class="cloud-icon" aria-hidden="true">☁️</div>
+    <div class="cloud-icon" aria-hidden="true">
+      <img src="/isicloud5gb.png" alt="" width="1024" height="1024" decoding="async" fetchpriority="high">
+    </div>
 
     <h1>Yes.</h1>
 
