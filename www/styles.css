@@ -242,31 +242,30 @@ footer a:hover {
   color: #cc00cc;
 }
 
-.footer-links {
-  display: flex;
-  gap: 0.7rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 0.15rem;
-}
-
-.footer-pill {
+.footer-logos {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.5rem 0.95rem;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  background: linear-gradient(135deg, rgba(78, 205, 196, 0.2), rgba(168, 216, 255, 0.16));
-  color: #cde8ff;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+  gap: 0.5rem;
+  margin: 0.4rem 0;
 }
 
-.footer-pill:hover {
-  color: #fff;
-  transform: translateY(-1px);
-  border-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+.footer-logos a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-logos img {
+  height: 28px;
+  width: auto;
+  filter: invert(1) grayscale(1);
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+
+.footer-logos img:hover {
+  opacity: 1;
+}
+
+.footer-logos a:last-child img {
+  height: 20px;
 }
