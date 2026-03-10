@@ -255,9 +255,7 @@ footer a:hover {
 }
 
 .footer-logos img {
-  height: 28px;
   width: auto;
-  filter: invert(1) grayscale(1);
   opacity: 0.75;
   transition: opacity 0.2s;
 }
@@ -266,6 +264,11 @@ footer a:hover {
   opacity: 1;
 }
 
-.footer-logos a:last-child img {
+.footer-logos .logo-yuryv {
+  height: 28px;
+}
+
+.footer-logos .logo-digitalby {
   height: 20px;
+  filter: invert(1) grayscale(1);
 }
