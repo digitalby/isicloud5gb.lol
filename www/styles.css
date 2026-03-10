@@ -169,10 +169,10 @@ h2 {
 }
 
 .viral-prompt {
-  margin-top: 1rem;
   font-size: 1rem;
   color: #c8d6e5;
   line-height: 1.5;
+  margin: 0.5rem 0;
 }
 
 .viral-prompt strong {
@@ -184,6 +184,8 @@ h2 {
   gap: 0.6rem;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 1rem 0;
+  margin-bottom: 2rem;
 }
 
 .share-btn {
