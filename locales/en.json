@@ -19,7 +19,8 @@
     "incredible": "Incredible."
   },
   "timeline": {
-    "today": "Today"
+    "today": "Today",
+    "storage_label": "5GB"
   },
   "share": {
     "heading": "Send this to your group chat:",
