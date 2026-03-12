@@ -67,7 +67,7 @@
     "wishlist": ["a11y", "l10n", "design accommodations"],
     "faq": [
       { "q": "Is it still 5GB?", "a": "Yes." },
-      { "q": "What about now?", "a": "Still 5GB.", "compact": true },
+      { "q": "What about now?", "a": "Still 5GB." },
       { "q": "Has it changed since the last time I checked?", "a": "No. It's 5GB." },
       { "q": "Surely a $3 trillion company can-", "a": "5GB." },
       { "q": "Google gives 15GB for free.", "a": "That's not a question, but yes, it does. Tripling Apple's offering. For free." },

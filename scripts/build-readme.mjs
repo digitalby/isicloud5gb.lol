@@ -14,10 +14,7 @@ function badge(social) {
   return `[![${social.label}](https://img.shields.io/badge/${social.badge}?style=for-the-badge&logo=${social.logo}&logoColor=white)](${social.url})`;
 }
 
-function faqEntry({ q, a, compact }) {
-  if (compact) {
-    return `**Q: ${q}**\nA: ${a}`;
-  }
+function faqEntry({ q, a }) {
   return `**Q: ${q}**\n\nA: ${a}`;
 }
 
