@@ -76,6 +76,8 @@
     "tech_stack": "This entire website has more meta tags than content, because the answer is one word. Feel free to overengineer it as much as you want.",
     "contributing_intro": "There's not much to contribute. The answer is *yes*.",
     "contributing_body": "To help us on our mission to deliver this answer, the wishlist is:",
+    "translations": "Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):",
+    "translations_heading": "Translations",
     "spread": "Spread the suffering:",
     "spread_items": [
       "open a PR today",

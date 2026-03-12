@@ -48,6 +48,14 @@ To help us on our mission to deliver this answer, the wishlist is:
 - l10n
 - design accommodations
 
+### Translations
+
+Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):
+
+<a href="https://hosted.weblate.org/engage/isicloud5gb/">
+<img src="https://hosted.weblate.org/widget/isicloud5gb/svg-badge.svg" alt="Translation status" />
+</a>
+
 Spread the suffering:
 - open a PR today
 - share this website on your socials
