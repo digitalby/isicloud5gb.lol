@@ -2,6 +2,16 @@
 
 **Yes.**
 
+## Socials
+
+[![X (Twitter)](https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/isicloud5gb)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/isicloud5gb.lol)
+[![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/intent/post?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/isicloud5gb)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/B2H737b73S)
+[![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/isicloud5gb_bot)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/digitalby/isicloud5gb.lol)
+
 ## FAQ
 
 **Q: Is it still 5GB?**
