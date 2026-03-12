@@ -45,22 +45,35 @@
     "maintained_by_html": "Maintained by Yury Vashchylau — <a href=\"https://x.com/vashchylau\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://github.com/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>, <a href=\"https://www.linkedin.com/in/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>"
   },
   "readme": {
+    "site_url": "https://isicloud5gb.lol",
     "title": "Is iCloud's Free tier still 5GB?",
     "answer": "Yes.",
-    "faq1_q": "Is it still 5GB?",
-    "faq1_a": "Yes.",
-    "faq2_q": "What about now?",
-    "faq2_a": "Still 5GB.",
-    "faq3_q": "Has it changed since the last time I checked?",
-    "faq3_a": "No. It's 5GB.",
-    "faq4_q": "Surely a $3 trillion company can-",
-    "faq4_a": "5GB.",
-    "faq5_q": "Google gives 15GB for free.",
-    "faq5_a": "That's not a question, but yes, it does. Tripling Apple's offering. For free.",
-    "faq6_q": "Will Apple ever increase it?",
-    "faq6_a": "Check back at isicloud5gb.lol. If the site is still up, the answer is still no.",
+    "headings": {
+      "faq": "FAQ",
+      "tech_stack": "Tech Stack",
+      "contributing": "Contributing",
+      "license": "License"
+    },
+    "socials": [
+      { "label": "X (Twitter)", "badge": "X%20%2F%20Twitter-000000", "logo": "x", "url": "https://twitter.com/isicloud5gb" },
+      { "label": "Bluesky", "badge": "Bluesky-0285FF", "logo": "bluesky", "url": "https://bsky.app/profile/isicloud5gb.lol" },
+      { "label": "Threads", "badge": "Threads-000000", "logo": "threads", "url": "https://www.threads.net/intent/post?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol" },
+      { "label": "LinkedIn", "badge": "LinkedIn-0A66C2", "logo": "linkedin", "url": "https://www.linkedin.com/company/isicloud5gb" },
+      { "label": "Discord", "badge": "Discord-5865F2", "logo": "discord", "url": "https://discord.gg/B2H737b73S" },
+      { "label": "Telegram Bot", "badge": "Telegram%20Bot-26A5E4", "logo": "telegram", "url": "https://t.me/isicloud5gb_bot" },
+      { "label": "GitHub", "badge": "GitHub-181717", "logo": "github", "url": "https://github.com/digitalby/isicloud5gb.lol" }
+    ],
+    "wishlist": ["a11y", "l10n", "design accommodations"],
+    "faq": [
+      { "q": "Is it still 5GB?", "a": "Yes." },
+      { "q": "What about now?", "a": "Still 5GB.", "compact": true },
+      { "q": "Has it changed since the last time I checked?", "a": "No. It's 5GB." },
+      { "q": "Surely a $3 trillion company can-", "a": "5GB." },
+      { "q": "Google gives 15GB for free.", "a": "That's not a question, but yes, it does. Tripling Apple's offering. For free." },
+      { "q": "Will Apple ever increase it?", "a": "Check back at [isicloud5gb.lol](https://isicloud5gb.lol). If the site is still up, the answer is still no." }
+    ],
     "tech_stack": "This entire website has more meta tags than content, because the answer is one word. Feel free to overengineer it as much as you want.",
-    "contributing_intro": "There's not much to contribute. The answer is yes.",
+    "contributing_intro": "There's not much to contribute. The answer is *yes*.",
     "contributing_body": "To help us on our mission to deliver this answer, the wishlist is:",
     "spread": "Spread the suffering:",
     "spread_items": [
@@ -70,6 +83,6 @@
       "ask grandma if she ran out of iCloud storage today and keeps deleting those family archive pics that have never been backed up"
     ],
     "shutdown_notice": "But if the Apple ever changes the answer to this question, open a PR and we'll shut the whole site down.",
-    "license_joke": "Because unlike iCloud storage, this is actually free."
+    "license_joke": "Because unlike iCloud storage, this is actually *free*."
   }
 }
