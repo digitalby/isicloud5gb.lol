@@ -2,8 +2,6 @@
 
 **Yes.**
 
-## Socials
-
 [![X (Twitter)](https://img.shields.io/badge/X%20%2F%20Twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/isicloud5gb)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/isicloud5gb.lol)
 [![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/intent/post?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol)
