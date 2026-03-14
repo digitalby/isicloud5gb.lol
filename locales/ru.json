@@ -1,0 +1,138 @@
+{
+    "timeline": {
+        "storage_label": "5 ГБ",
+        "today": "Сегодня"
+    },
+    "readme": {
+        "faq": [
+            {
+                "q": "Всё ещё 5 ГБ?",
+                "a": "Да."
+            },
+            {
+                "a": "Всё ещё 5 ГБ.",
+                "q": "А что сейчас?"
+            },
+            {
+                "a": "Нет. Всё ещё 5 ГБ."
+            },
+            {
+                "a": "5 ГБ.",
+                "q": "Но ведь компания стоимостью $3 трлн наверняка может--"
+            },
+            {
+                "q": "Google даёт 15 ГБ бесплатно.",
+                "a": "Это не вопрос. Но да — так и есть. Втрое больше, чем у Apple. Бесплатно."
+            },
+            {
+                "q": "Apple когда-нибудь его увеличит?"
+            }
+        ],
+        "wishlist": [
+            "доступность",
+            "локализация",
+            "приспособления для дизайна"
+        ],
+        "socials": [
+            {
+                "url": "https://twitter.com/isicloud5gb",
+                "logo": "x",
+                "badge": "X%20%2F%20Twitter-000000",
+                "label": "X (Twitter)"
+            },
+            {
+                "logo": "bluesky",
+                "label": "Bluesky",
+                "badge": "Bluesky-0285FF",
+                "url": "https://bsky.app/profile/isicloud5gb.lol"
+            },
+            {
+                "url": "https://www.threads.net/intent/post?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol",
+                "logo": "threads",
+                "label": "Threads",
+                "badge": "Threads-000000"
+            },
+            {
+                "url": "https://www.linkedin.com/company/isicloud5gb",
+                "logo": "linkedin",
+                "label": "LinkedIn",
+                "badge": "LinkedIn-0A66C2"
+            },
+            {
+                "logo": "discord",
+                "label": "Discord",
+                "badge": "Discord-5865F2",
+                "url": "https://discord.gg/B2H737b73S"
+            },
+            {
+                "url": "https://t.me/isicloud5gb_bot",
+                "logo": "telegram",
+                "badge": "Telegram%20Bot-26A5E4",
+                "label": "Telegram Bot"
+            },
+            {
+                "logo": "github",
+                "label": "GitHub",
+                "badge": "GitHub-181717",
+                "url": "https://github.com/digitalby/isicloud5gb.lol"
+            }
+        ],
+        "headings": {
+            "contributing": "Контрибьюшн",
+            "faq": "FAQ",
+            "license": "Лицензия",
+            "tech_stack": "Тех. стек"
+        },
+        "site_url": "https://isicloud5gb.lol",
+        "spread_items": [
+            "откройте пулл-реквест сегодня",
+            "поделитесь ссылкой в соцсетях",
+            "отправьте ссылку в ваш семейный чат"
+        ],
+        "spread": "Пусть о страданиях узнает весь мир:",
+        "contributing_intro": "Контрибьютить тут почти нечего. Ответ — *да*.",
+        "contributing_body": "Чтобы наша вещательная миссия стала шире — вот список желаний:",
+        "translations_heading": "Переводы",
+        "answer": "Да."
+    },
+    "share": {
+        "bluesky": "Bluesky",
+        "copied": "Скопировано!",
+        "copy_link": "Копировать ссылку",
+        "discord": "Discord",
+        "github": "GitHub",
+        "threads_share_text": "Бесплатный iCloud — всё ещё 5 ГБ? Да. https://isicloud5gb.lol",
+        "linkedin": "LinkedIn",
+        "subheading": "(или вашей маме, у которой постоянно заканчивается память)",
+        "heading": "Отправьте ссылку в ваш групповой чат:",
+        "telegram": "Telegram bot",
+        "threads": "Threads",
+        "x_twitter": "X / Twitter"
+    },
+    "news": {
+        "coming_soon": "СКОРО.",
+        "body": "Новостная рассылка — узнай первым, когда уже Apple наконец обновит свой бесплатный тариф.",
+        "heading": "Подпишись на новости."
+    },
+    "info": {
+        "incredible": "Невероятно."
+    },
+    "schema": {
+        "question": "Бесплатный iCloud — всё ещё 5 ГБ?",
+        "answer": "Да."
+    },
+    "meta": {
+        "title": "Бесплатный iCloud — всё ещё 5 ГБ?",
+        "twitter_description": "Да. Apple до сих пор даёт вам… целых 5GB бесплатного хранилища iCloud. Невероятно.",
+        "og_description": "Да. Apple до сих пор даёт вам… всего 5 бесплатных ГБ.",
+        "description": "Да. В наше время, Apple до сих пор даёт вам… целых 5 бесплатных ГБ хранилища iCloud."
+    },
+    "footer": {
+        "maintained_by_html": "Обслуживает: Yury Vashchylau — <a href=\"https://x.com/vashchylau\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter</a>, <a href=\"https://github.com/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>, <a href=\"https://www.linkedin.com/in/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a>",
+        "disclaimer": "Мы не связаны с Apple. Мы просто разочарованы."
+    },
+    "main": {
+        "answer_aria": "Воспроизвести звук «да»",
+        "answer": "Да."
+    }
+}

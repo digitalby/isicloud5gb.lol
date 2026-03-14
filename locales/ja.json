@@ -1,0 +1,88 @@
+{
+    "schema": {
+        "question": "iCloudの無料プランは今でも5GBのまま？",
+        "answer": "はい。"
+    },
+    "main": {
+        "question": "iCloudの無料プランは今でも5GBのまま？",
+        "answer": "はい。"
+    },
+    "readme": {
+        "title": "iCloudの無料プランは今でも5GBのまま？",
+        "socials": [
+            {
+                "url": "https://twitter.com/isicloud5gb",
+                "label": "X (Twitter)",
+                "logo": "x",
+                "badge": "X%20%2F%20Twitter-000000"
+            },
+            {
+                "logo": "bluesky"
+            },
+            {
+                "badge": "Threads-000000",
+                "label": "Threads",
+                "logo": "threads",
+                "url": "https://www.threads.net/intent/post?text=Is%20iCloud%27s%20free%20tier%20still%205GB%3F%20Yes.%20https%3A%2F%2Fisicloud5gb.lol"
+            },
+            {
+                "url": "https://www.linkedin.com/company/isicloud5gb",
+                "badge": "LinkedIn-0A66C2",
+                "label": "LinkedIn",
+                "logo": "linkedin"
+            },
+            {},
+            {
+                "url": "https://t.me/isicloud5gb_bot",
+                "logo": "telegram",
+                "badge": "Telegram%20Bot-26A5E4",
+                "label": "Telegram Bot"
+            },
+            {
+                "label": "GitHub"
+            }
+        ],
+        "faq": [
+            {
+                "q": "まだ5GBですか？",
+                "a": "はい。"
+            },
+            {
+                "q": "では今は？",
+                "a": "5GBです。"
+            },
+            {
+                "q": "前に確認した時から変わりましたか？",
+                "a": "いいえ。5GBです。"
+            },
+            {
+                "a": "5GB。",
+                "q": "時価総額3兆ドル企業ならさすがに――"
+            },
+            {
+                "q": "Googleは15GBを無料で提供しています。"
+            }
+        ],
+        "site_url": "https://isicloud5gb.lol",
+        "answer": "はい。"
+    },
+    "meta": {
+        "title": "iCloudの無料プランは今でも5GBのまま？"
+    },
+    "share": {
+        "threads_share_text": "iCloudの無料プランは今でも5GBのまま？はい。 https://isicloud5gb.lol",
+        "x_twitter": "X / Twitter",
+        "telegram": "Telegram bot",
+        "threads": "Threads"
+    },
+    "info": {
+        "incredible": "信じられない。",
+        "body_html": "時価総額<strong>3兆ドル(約474兆円)</strong>超のAppleは、<strong>2011年</strong>に始めた時と同じ <strong>5GB</strong>の無料iCloudストレージを今も提供しています。Googleは15GBを無料で提供しています。"
+    },
+    "timeline": {
+        "storage_label": "5GB"
+    },
+    "news": {
+        "body": "Appleがようやく無料枠を更新したときに備えてチェックしておいてください。"
+    }
+}
