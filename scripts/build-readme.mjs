@@ -19,7 +19,7 @@ function faqEntry({ q, a }) {
 }
 
 const lines = [
-  "![isicloud5gb.lol](isicloud5gb.gif)",
+  `<img src="isicloud5gb.gif" alt="isicloud5gb.lol" width="96">`,
   "",
   `# [isicloud5gb.lol](${r.site_url}) - ${r.title}`,
   "",

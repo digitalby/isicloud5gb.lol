@@ -1,4 +1,4 @@
-![isicloud5gb.lol](isicloud5gb.gif)
+<img src="isicloud5gb.gif" alt="isicloud5gb.lol" width="96">
 
 # [isicloud5gb.lol](https://isicloud5gb.lol) - Is iCloud's Free tier still 5GB?
 
