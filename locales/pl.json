@@ -8,15 +8,18 @@
         "telegram": "bot Telegram"
     },
     "timeline": {
-        "storage_label": "5GB"
+        "storage_label": "5GB",
+        "today": "Dzisiaj"
     },
     "readme": {
         "faq": [
             {
-                "q": "Czy nadal zaledwo 5GB?"
+                "q": "Czy nadal zaledwo 5GB?",
+                "a": "Tak."
             },
             {
-                "a": "Nadal 5 giga."
+                "a": "Nadal 5 giga.",
+                "q": "A teraz?"
             },
             {
                 "a": "Nie. Nadal 5 giga."
@@ -27,12 +30,16 @@
             },
             {
                 "a": "To nie jest pytanie. Ale tak, tak jest. 3x więcej niż u Apple'a. Za darmo."
+            },
+            {
+                "q": "Czy Apple kiedyś to zwiększy?"
             }
         ],
         "headings": {
             "faq": "Pytania i odpowiedzi",
             "license": "Licencja",
-            "tech_stack": "Stack Techniczny"
+            "tech_stack": "Stack Techniczny",
+            "contributing": "Kontrybucja"
         },
         "wishlist": [
             "dostępność",
@@ -56,17 +63,26 @@
                 "label": "Bot Telegram"
             }
         ],
-        "contributing_intro": "Prawie nie ma co kontrybuować. Odpowiedź brzmi *tak*."
+        "contributing_intro": "Prawie nie ma co kontrybuować. Odpowiedź brzmi *tak*.",
+        "tech_stack": "Cała strona www ma więcej tagów meta niż treści ponieważ odpowiedź brzmi w jedno słowo. Możesz go nadmiernie przeprojektować tyle ile chcesz.",
+        "contributing_body": "Aby pomóc nam w naszej misji oświeceniowej, lista żądań brzmi następująco:",
+        "translations_heading": "Tłumaczenia",
+        "answer": "Tak."
     },
     "schema": {
-        "question": "Darmowy plan iCloud — czy nadal 5GB?"
+        "question": "Darmowy plan iCloud — czy nadal 5GB?",
+        "answer": "Tak."
     },
     "main": {
         "question": "Darmowy plan iCloud — czy nadal 5GB?",
-        "answer_aria": "Odtwórz dźwięk \"Tak\""
+        "answer_aria": "Odtwórz dźwięk \"Tak\"",
+        "answer": "Tak."
     },
     "meta": {
-        "title": "Darmowy plan iCloud — czy nadal 5GB?"
+        "title": "Darmowy plan iCloud — czy nadal 5GB?",
+        "twitter_description": "Tak. Apple nadal daje Wam niecałe 5GB darmowej chmury iCloud. Aż się nie wierzy.",
+        "og_description": "Tak. Apple nadal daje Wam zaledwie 5 giga za darmo.",
+        "description": "Tak. W dzisiejszych czasach Apple nadal daje Ci niecałe 5GB darmowego schroniska w chmurze iCloud."
     },
     "footer": {
         "maintained_by_html": "Obsługiwane przez: Yury Vashchylau — <a href=\"https://x.com/vashchylau\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter\n</a>,\n<a href=\"https://github.com/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">\nGitHub</a>,\n<a href=\"https://www.linkedin.com/in/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">\nLinkedIn</a>",
@@ -74,6 +90,7 @@
     },
     "news": {
         "body": "Bądź w kontakcie na wypadek gdy Apple w końcu zaktualizuje swój darmowy plan.",
-        "heading": "Wpisz się na listę powiadomień."
+        "heading": "Wpisz się na listę powiadomień.",
+        "coming_soon": "JUŻ WKRÓTCE."
     }
 }
