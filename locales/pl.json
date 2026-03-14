@@ -67,7 +67,8 @@
         "tech_stack": "Cała strona www ma więcej tagów meta niż treści ponieważ odpowiedź brzmi w jedno słowo. Możesz go nadmiernie przeprojektować tyle ile chcesz.",
         "contributing_body": "Aby pomóc nam w naszej misji oświeceniowej, lista żądań brzmi następująco:",
         "translations_heading": "Tłumaczenia",
-        "answer": "Tak."
+        "answer": "Tak.",
+        "lang_name": "Polski"
     },
     "schema": {
         "question": "Darmowy plan iCloud — czy nadal 5GB?",
