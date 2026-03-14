@@ -12,6 +12,7 @@
 <a href="https://hosted.weblate.org/engage/isicloud5gb/">
 <img src="https://hosted.weblate.org/widget/isicloud5gb/isicloud5gb-l10n/svg-badge.svg" alt="Translation status" />
 </a>
+[![GitHub Sponsor](https://img.shields.io/badge/GitHub-Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/digitalby)
 
 ## FAQ
 
@@ -62,7 +63,7 @@ But if the Apple ever changes the answer to this question, open a PR and we'll s
 
 ### Translations
 
-Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/).
+Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):
 
 ## License
 
