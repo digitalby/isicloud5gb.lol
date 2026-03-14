@@ -1,1 +1,79 @@
-{}
+{
+    "share": {
+        "copy_link": "Kopiuj link",
+        "copied": "Skopiowano!",
+        "threads_share_text": "Darmowy plan iCloud — czy nadal 5GB? Tak. https://isicloud5gb.lol",
+        "subheading": "(albo do Twojej mamy której ciągle brakuje miejsca w chmurze)",
+        "heading": "Wyślij to do Twojego czatu grupowego:",
+        "telegram": "bot Telegram"
+    },
+    "timeline": {
+        "storage_label": "5GB"
+    },
+    "readme": {
+        "faq": [
+            {
+                "q": "Czy nadal zaledwo 5GB?"
+            },
+            {
+                "a": "Nadal 5 giga."
+            },
+            {
+                "a": "Nie. Nadal 5 giga."
+            },
+            {
+                "a": "5GB.",
+                "q": "Przecież na pewno firma o wartości $3 bln może--"
+            },
+            {
+                "a": "To nie jest pytanie. Ale tak, tak jest. 3x więcej niż u Apple'a. Za darmo."
+            }
+        ],
+        "headings": {
+            "faq": "Pytania i odpowiedzi",
+            "license": "Licencja",
+            "tech_stack": "Stack Techniczny"
+        },
+        "wishlist": [
+            "dostępność",
+            "lokalizacja"
+        ],
+        "title": "Darmowy plan iCloud — czy nadal 5GB?",
+        "spread_items": [
+            "otwórz PRa dziś",
+            "podziel się stroną na socialsach",
+            "wyślij to do czatu rodzinnego"
+        ],
+        "spread": "Rozprzestrzeń wiedzę:",
+        "socials": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "logo": "telegram",
+                "label": "Bot Telegram"
+            }
+        ],
+        "contributing_intro": "Prawie nie ma co kontrybuować. Odpowiedź brzmi *tak*."
+    },
+    "schema": {
+        "question": "Darmowy plan iCloud — czy nadal 5GB?"
+    },
+    "main": {
+        "question": "Darmowy plan iCloud — czy nadal 5GB?",
+        "answer_aria": "Odtwórz dźwięk \"Tak\""
+    },
+    "meta": {
+        "title": "Darmowy plan iCloud — czy nadal 5GB?"
+    },
+    "footer": {
+        "maintained_by_html": "Obsługiwane przez: Yury Vashchylau — <a href=\"https://x.com/vashchylau\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter\n</a>,\n<a href=\"https://github.com/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">\nGitHub</a>,\n<a href=\"https://www.linkedin.com/in/digitalby\" target=\"_blank\" rel=\"noopener noreferrer\">\nLinkedIn</a>",
+        "disclaimer": "Nie jesteśmy powiązani z Applem. Ale jesteśmy rozczarowani."
+    },
+    "news": {
+        "body": "Bądź w kontakcie na wypadek gdy Apple w końcu zaktualizuje swój darmowy plan.",
+        "heading": "Wpisz się na listę powiadomień."
+    }
+}
