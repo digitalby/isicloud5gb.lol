@@ -9,6 +9,9 @@
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/B2H737b73S)
 [![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/isicloud5gb_bot)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/digitalby/isicloud5gb.lol)
+<a href="https://hosted.weblate.org/engage/isicloud5gb/">
+<img src="https://hosted.weblate.org/widget/isicloud5gb/isicloud5gb-l10n/svg-badge.svg" alt="Translation status" />
+</a>
 
 ## FAQ
 
@@ -59,11 +62,7 @@ But if the Apple ever changes the answer to this question, open a PR and we'll s
 
 ### Translations
 
-Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):
-
-<a href="https://hosted.weblate.org/engage/isicloud5gb/">
-<img src="https://hosted.weblate.org/widget/isicloud5gb/svg-badge.svg" alt="Translation status" />
-</a>
+Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/).
 
 ## License
 
