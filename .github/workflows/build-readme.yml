@@ -2,6 +2,7 @@ name: Build README
 
 on:
   push:
+    branches: [main]
     paths:
       - "locales/**"
 
@@ -10,17 +11,27 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v4
 
       - name: Generate README
         run: node scripts/build-readme.mjs
 
-      - name: Commit and push if changed
+      - name: Create PR if changed
         run: |
-          git diff --quiet README.md && exit 0
+          git diff --quiet README.md && echo "No changes" && exit 0
+          BRANCH="auto/update-readme-$(date +%s)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
           git add README.md
-          git commit -m "docs: regenerate README from locale files [skip ci]"
-          git push
+          git commit -m "docs: regenerate README from locale files"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "docs: regenerate README from locale files" \
+            --body "Auto-generated from changes to \`locales/\`." \
+            --base main \
+            --head "$BRANCH"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
