@@ -65,7 +65,7 @@ But if the Apple ever changes the answer to this question, open a PR and we'll s
 
 ### Translations
 
-Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):
+Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/).
 
 ## License
 
