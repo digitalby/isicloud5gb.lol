@@ -61,7 +61,7 @@ Spread the suffering:
 - send it to your family's group chat
 - ask grandma if she ran out of iCloud storage today and keeps deleting those family archive pics that have never been backed up
 
-But if the Apple ever changes the answer to this question, open a PR and we'll shut the whole site down.
+But if Apple ever changes the answer to this question, open a PR and we'll shut the whole site down.
 
 ### Translations
 
