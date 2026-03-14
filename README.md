@@ -49,14 +49,6 @@ To help us on our mission to deliver this answer, the wishlist is:
 - l10n
 - design accommodations
 
-### Translations
-
-Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):
-
-<a href="https://hosted.weblate.org/engage/isicloud5gb/">
-<img src="https://hosted.weblate.org/widget/isicloud5gb/svg-badge.svg" alt="Translation status" />
-</a>
-
 Spread the suffering:
 - open a PR today
 - share this website on your socials
@@ -64,6 +56,14 @@ Spread the suffering:
 - ask grandma if she ran out of iCloud storage today and keeps deleting those family archive pics that have never been backed up
 
 But if the Apple ever changes the answer to this question, open a PR and we'll shut the whole site down.
+
+### Translations
+
+Help translate this site into your language via [Weblate](https://hosted.weblate.org/engage/isicloud5gb/):
+
+<a href="https://hosted.weblate.org/engage/isicloud5gb/">
+<img src="https://hosted.weblate.org/widget/isicloud5gb/svg-badge.svg" alt="Translation status" />
+</a>
 
 ## License
 
