@@ -16,6 +16,8 @@
 </a>
 [![GitHub Sponsor](https://img.shields.io/badge/GitHub-Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/digitalby)
 
+[English](README.md) | [日本語](README.ja.md) | **Polski** | [Русский](README.ru.md)
+
 ## Pytania i odpowiedzi
 
 **Q: Czy nadal zaledwo 5GB?**

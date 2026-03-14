@@ -59,7 +59,17 @@ function faqEntry({ q, a }) {
   return `**Q: ${q}**\n\nA: ${a}`;
 }
 
-function buildReadme(r) {
+function langNav(currentLang, allLangEntries) {
+  return allLangEntries
+    .map(({ lang, r }) => {
+      const name = r.lang_name ?? lang;
+      const file = lang === "en" ? "README.md" : `README.${lang}.md`;
+      return lang === currentLang ? `**${name}**` : `[${name}](${file})`;
+    })
+    .join(" | ");
+}
+
+function buildReadme(r, lang, allLangEntries) {
   const lines = [
     `<img src="isicloud5gb.gif" alt="isicloud5gb.lol" width="56">`,
     "",
@@ -72,6 +82,8 @@ function buildReadme(r) {
     `<img src="https://hosted.weblate.org/widget/isicloud5gb/isicloud5gb-l10n/svg-badge.svg" alt="Translation status" />`,
     `</a>`,
     badge(r.sponsor),
+    "",
+    langNav(lang, allLangEntries),
     "",
     `## ${r.headings.faq}`,
     "",
@@ -109,7 +121,8 @@ function buildReadme(r) {
 
 const localeFiles = readdirSync(localesDir).filter((f) => f.endsWith(".json"));
 
-for (const file of localeFiles) {
+// First pass: collect all merged readme objects
+const allLangEntries = localeFiles.map((file) => {
   const lang = file.replace(".json", "");
   const locale = JSON.parse(readFileSync(join(localesDir, file), "utf-8"));
   const localeReadme = locale.readme ?? {};
@@ -118,9 +131,16 @@ for (const file of localeFiles) {
   for (const k of Object.keys(enReadme)) {
     r[k] = mergeWithFallback(localeReadme[k], enReadme[k]);
   }
+  // lang_name may not be in enReadme keys if missing from en.json; handle it explicitly
+  r.lang_name = localeReadme.lang_name ?? enReadme.lang_name ?? lang;
 
+  return { lang, r };
+});
+
+// Second pass: generate each README
+for (const { lang, r } of allLangEntries) {
   const outFile =
     lang === "en" ? join(root, "README.md") : join(root, `README.${lang}.md`);
-  writeFileSync(outFile, buildReadme(r));
+  writeFileSync(outFile, buildReadme(r, lang, allLangEntries));
   console.log(`${outFile} generated (${lang}).`);
 }
