@@ -19,11 +19,17 @@ function faqEntry({ q, a }) {
 }
 
 const lines = [
+  `<img src="isicloud5gb.gif" alt="isicloud5gb.lol" width="56">`,
+  "",
   `# [isicloud5gb.lol](${r.site_url}) - ${r.title}`,
   "",
   `**${r.answer}**`,
   "",
   r.socials.map(badge).join("\n"),
+  `<a href="https://hosted.weblate.org/engage/isicloud5gb/">`,
+  `<img src="https://hosted.weblate.org/widget/isicloud5gb/isicloud5gb-l10n/svg-badge.svg" alt="Translation status" />`,
+  `</a>`,
+  badge(r.sponsor),
   "",
   `## ${r.headings.faq}`,
   "",
@@ -48,10 +54,6 @@ const lines = [
   `### ${r.translations_heading}`,
   "",
   r.translations,
-  "",
-  `<a href="https://hosted.weblate.org/engage/isicloud5gb/">`,
-  `<img src="https://hosted.weblate.org/widget/isicloud5gb/svg-badge.svg" alt="Translation status" />`,
-  `</a>`,
   "",
   `## ${r.headings.license}`,
   "",

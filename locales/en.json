@@ -64,6 +64,7 @@
       { "label": "Telegram Bot", "badge": "Telegram%20Bot-26A5E4", "logo": "telegram", "url": "https://t.me/isicloud5gb_bot" },
       { "label": "GitHub", "badge": "GitHub-181717", "logo": "github", "url": "https://github.com/digitalby/isicloud5gb.lol" }
     ],
+    "sponsor": { "label": "GitHub Sponsor", "badge": "GitHub-Sponsor-ea4aaa", "logo": "githubsponsors", "url": "https://github.com/sponsors/digitalby" },
     "wishlist": ["a11y", "l10n", "design accommodations"],
     "faq": [
       { "q": "Is it still 5GB?", "a": "Yes." },
