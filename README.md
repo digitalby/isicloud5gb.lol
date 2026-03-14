@@ -1,3 +1,5 @@
+![isicloud5gb.lol](isicloud5gb.gif)
+
 # [isicloud5gb.lol](https://isicloud5gb.lol) - Is iCloud's Free tier still 5GB?
 
 **Yes.**
