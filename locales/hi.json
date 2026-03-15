@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "क्या iCloud का मुफ़्त प्लान अभी भी 5GB है?",
+        "description": "हाँ। इस युग में, Apple अभी भी केवल 5GB मुफ़्त iCloud स्टोरेज देता है।",
+        "og_description": "हाँ। Apple अभी भी केवल 5GB मुफ़्त देता है।",
+        "twitter_description": "हाँ। Apple अभी भी केवल 5GB मुफ़्त iCloud स्टोरेज देता है। अविश्वसनीय।"
+    },
+    "schema": {
+        "question": "क्या iCloud का मुफ़्त प्लान अभी भी 5GB है?",
+        "answer": "हाँ।"
+    },
+    "main": {
+        "question": "क्या iCloud का मुफ़्त प्लान अभी भी 5GB है?",
+        "answer": "हाँ।",
+        "answer_aria": "हाँ की आवाज़ चलाएं"
+    },
+    "info": {
+        "body_html": "Apple, एक <strong>$3+ ट्रिलियन कंपनी</strong>, अभी भी वही <strong>5GB</strong> मुफ़्त iCloud स्टोरेज दे रही है जो उसने <strong>2011</strong> में लॉन्च के समय दी थी। Google 15GB देता है।",
+        "incredible": "अविश्वसनीय।"
+    },
+    "timeline": {
+        "today": "आज",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "इसे अपने ग्रुप चैट में भेजें:",
+        "subheading": "(या अपनी माँ को जिनका स्टोरेज हमेशा भर जाता है)",
+        "copy_link": "लिंक कॉपी करें",
+        "copied": "कॉपी हो गया!",
+        "threads_share_text": "क्या iCloud का मुफ़्त प्लान अभी भी 5GB है? हाँ। https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "समाचार सदस्यता लें।",
+        "body": "जब Apple अपना मुफ़्त प्लान अपडेट करे तब सूचना पाने के लिए जुड़े रहें।",
+        "coming_soon": "जल्द आ रहा है।"
+    },
+    "footer": {
+        "disclaimer": "Apple से संबद्ध नहीं। बस निराश।"
+    },
+    "readme": {
+        "title": "क्या iCloud का मुफ़्त प्लान अभी भी 5GB है?",
+        "answer": "हाँ।",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}

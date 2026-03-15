@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "iCloud 免費方案仍然只有 5GB 嗎？",
+        "description": "是的。在這個時代，Apple 仍然只給你 5GB 的免費 iCloud 儲存空間。",
+        "og_description": "是的。Apple 仍然只給你 5GB 免費空間。",
+        "twitter_description": "是的。Apple 仍然只給你 5GB 的免費 iCloud 儲存空間。難以置信。"
+    },
+    "schema": {
+        "question": "iCloud 免費方案仍然只有 5GB 嗎？",
+        "answer": "是的。"
+    },
+    "main": {
+        "question": "iCloud 免費方案仍然只有 5GB 嗎？",
+        "answer": "是的。",
+        "answer_aria": "播放是的聲音"
+    },
+    "info": {
+        "body_html": "Apple，一家市值<strong>逾 3 兆美元</strong>的公司，自 <strong>2011</strong> 年推出以來仍提供相同的 <strong>5GB</strong> 免費 iCloud 儲存空間。Google 給你 15GB。",
+        "incredible": "難以置信。"
+    },
+    "timeline": {
+        "today": "今天",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "傳給你的群組聊天：",
+        "subheading": "（或你那個總是快沒空間的媽媽）",
+        "copy_link": "複製連結",
+        "copied": "已複製！",
+        "threads_share_text": "iCloud 免費方案仍然只有 5GB 嗎？是的。https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "訂閱最新消息。",
+        "body": "當 Apple 終於更新免費方案時，保持關注。",
+        "coming_soon": "即將推出。"
+    },
+    "footer": {
+        "disclaimer": "與 Apple 無關。只是失望而已。"
+    },
+    "readme": {
+        "title": "iCloud 免費方案仍然只有 5GB 嗎？",
+        "answer": "是的。",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}

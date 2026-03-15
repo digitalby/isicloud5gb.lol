@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "Ist das kostenlose iCloud-Kontingent immer noch 5GB?",
+        "description": "Ja. Heutzutage bietet Apple immer noch nur 5GB kostenlosen iCloud-Speicher.",
+        "og_description": "Ja. Apple gibt dir immer noch nur 5GB kostenlos.",
+        "twitter_description": "Ja. Apple gibt dir immer noch nur 5GB kostenlosen iCloud-Speicher. Unglaublich."
+    },
+    "schema": {
+        "question": "Ist das kostenlose iCloud-Kontingent immer noch 5GB?",
+        "answer": "Ja."
+    },
+    "main": {
+        "question": "Ist das kostenlose iCloud-Kontingent immer noch 5GB?",
+        "answer": "Ja.",
+        "answer_aria": "Ja-Sound abspielen"
+    },
+    "info": {
+        "body_html": "Apple, ein Unternehmen mit einem Marktwert von <strong>über 3 Billionen Dollar</strong>, bietet immer noch denselben <strong>5GB</strong> kostenlosen iCloud-Speicher wie beim Start im Jahr <strong>2011</strong>. Google gibt dir 15GB.",
+        "incredible": "Unglaublich."
+    },
+    "timeline": {
+        "today": "Heute",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "Schick das in deinen Gruppenchat:",
+        "subheading": "(oder deiner Mutter, der immer der Speicher ausgeht)",
+        "copy_link": "Link kopieren",
+        "copied": "Kopiert!",
+        "threads_share_text": "Ist das kostenlose iCloud-Kontingent immer noch 5GB? Ja. https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "Neuigkeiten abonnieren.",
+        "body": "Bleib auf dem Laufenden, wenn Apple endlich sein kostenloses Kontingent aktualisiert.",
+        "coming_soon": "DEMNÄCHST."
+    },
+    "footer": {
+        "disclaimer": "Nicht mit Apple verbunden. Nur enttäuscht."
+    },
+    "readme": {
+        "title": "Ist das kostenlose iCloud-Kontingent immer noch 5GB?",
+        "answer": "Ja.",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}

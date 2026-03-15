@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "iCloud 무료 요금제가 아직도 5GB인가요?",
+        "description": "네. 이 시대에 Apple은 여전히 고작 5GB의 무료 iCloud 저장 공간만 제공합니다.",
+        "og_description": "네. Apple은 여전히 5GB만 무료로 제공합니다.",
+        "twitter_description": "네. Apple은 여전히 고작 5GB의 무료 iCloud 저장 공간만 제공합니다. 믿을 수 없네요."
+    },
+    "schema": {
+        "question": "iCloud 무료 요금제가 아직도 5GB인가요?",
+        "answer": "네."
+    },
+    "main": {
+        "question": "iCloud 무료 요금제가 아직도 5GB인가요?",
+        "answer": "네.",
+        "answer_aria": "네 소리 재생"
+    },
+    "info": {
+        "body_html": "<strong>3조 달러 이상</strong>의 기업 Apple이 <strong>2011</strong>년 출시 때와 동일한 <strong>5GB</strong>의 무료 iCloud 저장 공간을 여전히 제공하고 있습니다. Google은 15GB를 무료로 제공합니다.",
+        "incredible": "믿을 수 없네요."
+    },
+    "timeline": {
+        "today": "오늘",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "단체 채팅방에 공유하세요:",
+        "subheading": "(또는 항상 저장 공간이 부족한 엄마에게)",
+        "copy_link": "링크 복사",
+        "copied": "복사됨!",
+        "threads_share_text": "iCloud 무료 요금제가 아직도 5GB인가요? 네. https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "뉴스를 구독하세요.",
+        "body": "Apple이 마침내 무료 요금제를 업데이트할 때를 대비해 최신 소식을 받아보세요.",
+        "coming_soon": "출시 예정."
+    },
+    "footer": {
+        "disclaimer": "Apple과 무관합니다. 그냥 실망스러울 뿐입니다."
+    },
+    "readme": {
+        "title": "iCloud 무료 요금제가 아직도 5GB인가요?",
+        "answer": "네.",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}
