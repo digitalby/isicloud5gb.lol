@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "iCloud'un ücretsiz katmanı hâlâ 5GB mı?",
+        "description": "Evet. Bu çağda Apple hâlâ sadece 5GB ücretsiz iCloud depolama alanı sunuyor.",
+        "og_description": "Evet. Apple hâlâ sadece 5GB ücretsiz veriyor.",
+        "twitter_description": "Evet. Apple hâlâ sadece 5GB ücretsiz iCloud depolama alanı sunuyor. İnanılmaz."
+    },
+    "schema": {
+        "question": "iCloud'un ücretsiz katmanı hâlâ 5GB mı?",
+        "answer": "Evet."
+    },
+    "main": {
+        "question": "iCloud'un ücretsiz katmanı hâlâ 5GB mı?",
+        "answer": "Evet.",
+        "answer_aria": "Evet sesini çal"
+    },
+    "info": {
+        "body_html": "<strong>3 trilyon doların üzerinde</strong> piyasa değerine sahip Apple, <strong>2011</strong>'de başladığında sunduğu aynı <strong>5GB</strong> ücretsiz iCloud depolama alanını sunmaya devam ediyor. Google sana 15GB veriyor.",
+        "incredible": "İnanılmaz."
+    },
+    "timeline": {
+        "today": "Bugün",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "Bunu grup sohbetine gönder:",
+        "subheading": "(ya da her zaman depolama alanı biten annene)",
+        "copy_link": "Bağlantıyı kopyala",
+        "copied": "Kopyalandı!",
+        "threads_share_text": "iCloud'un ücretsiz katmanı hâlâ 5GB mı? Evet. https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "Haberlere abone ol.",
+        "body": "Apple sonunda ücretsiz katmanını güncellediğinde haberdar olmak için takipte kal.",
+        "coming_soon": "YAKINDA."
+    },
+    "footer": {
+        "disclaimer": "Apple ile bağlantılı değiliz. Sadece hayal kırıklığına uğradık."
+    },
+    "readme": {
+        "title": "iCloud'un ücretsiz katmanı hâlâ 5GB mı?",
+        "answer": "Evet.",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}

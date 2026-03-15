@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "Il piano gratuito di iCloud è ancora di 5GB?",
+        "description": "Sì. Al giorno d'oggi, Apple ti offre ancora solo 5GB di spazio gratuito su iCloud.",
+        "og_description": "Sì. Apple ti offre ancora solo 5GB gratuiti.",
+        "twitter_description": "Sì. Apple ti offre ancora solo 5GB di spazio gratuito su iCloud. Incredibile."
+    },
+    "schema": {
+        "question": "Il piano gratuito di iCloud è ancora di 5GB?",
+        "answer": "Sì."
+    },
+    "main": {
+        "question": "Il piano gratuito di iCloud è ancora di 5GB?",
+        "answer": "Sì.",
+        "answer_aria": "Riproduci suono sì"
+    },
+    "info": {
+        "body_html": "Apple, un'azienda da <strong>oltre 3.000 miliardi di dollari</strong>, offre ancora gli stessi <strong>5GB</strong> di spazio gratuito su iCloud dal lancio nel <strong>2011</strong>. Google te ne dà 15GB.",
+        "incredible": "Incredibile."
+    },
+    "timeline": {
+        "today": "Oggi",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "Invia questo alla tua chat di gruppo:",
+        "subheading": "(o a tua madre che esaurisce sempre lo spazio di archiviazione)",
+        "copy_link": "Copia link",
+        "copied": "Copiato!",
+        "threads_share_text": "Il piano gratuito di iCloud è ancora di 5GB? Sì. https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "Iscriviti alle novità.",
+        "body": "Tieniti aggiornato per quando Apple aggiornerà finalmente il suo piano gratuito.",
+        "coming_soon": "PROSSIMAMENTE."
+    },
+    "footer": {
+        "disclaimer": "Non affiliato ad Apple. Solo deluso."
+    },
+    "readme": {
+        "title": "Il piano gratuito di iCloud è ancora di 5GB?",
+        "answer": "Sì.",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}

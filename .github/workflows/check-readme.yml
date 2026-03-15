@@ -1,0 +1,25 @@
+name: Check README
+
+on:
+  pull_request:
+    paths:
+      - "locales/**"
+      - "scripts/build-readme.mjs"
+
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate README
+        run: node scripts/build-readme.mjs
+
+      - name: Fail if README is out of sync
+        run: |
+          if ! git diff --exit-code README.md; then
+            echo ""
+            echo "README.md is out of sync with locale files."
+            echo "Run 'node scripts/build-readme.mjs' and commit the result."
+            exit 1
+          fi

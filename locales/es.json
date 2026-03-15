@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "¿El nivel gratuito de iCloud sigue siendo de 5GB?",
+        "description": "Sí. Hoy en día, Apple todavía te da solo 5GB de almacenamiento gratuito en iCloud.",
+        "og_description": "Sí. Apple todavía te da solo 5GB gratis.",
+        "twitter_description": "Sí. Apple todavía te da solo 5GB de almacenamiento gratuito en iCloud. Increíble."
+    },
+    "schema": {
+        "question": "¿El nivel gratuito de iCloud sigue siendo de 5GB?",
+        "answer": "Sí."
+    },
+    "main": {
+        "question": "¿El nivel gratuito de iCloud sigue siendo de 5GB?",
+        "answer": "Sí.",
+        "answer_aria": "Reproducir sonido de sí"
+    },
+    "info": {
+        "body_html": "Apple, una empresa de <strong>más de 3 billones de dólares</strong>, sigue ofreciendo los mismos <strong>5GB</strong> de almacenamiento gratuito en iCloud que lanzó en <strong>2011</strong>. Google te da 15GB.",
+        "incredible": "Increíble."
+    },
+    "timeline": {
+        "today": "Hoy",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "Envía esto a tu chat grupal:",
+        "subheading": "(o a tu mamá que siempre se queda sin almacenamiento)",
+        "copy_link": "Copiar enlace",
+        "copied": "¡Copiado!",
+        "threads_share_text": "¿El nivel gratuito de iCloud sigue siendo de 5GB? Sí. https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "Suscríbete a las novedades.",
+        "body": "Mantente al tanto para cuando Apple finalmente actualice su nivel gratuito.",
+        "coming_soon": "PRÓXIMAMENTE."
+    },
+    "footer": {
+        "disclaimer": "No afiliado con Apple. Solo decepcionado."
+    },
+    "readme": {
+        "title": "¿El nivel gratuito de iCloud sigue siendo de 5GB?",
+        "answer": "Sí.",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}

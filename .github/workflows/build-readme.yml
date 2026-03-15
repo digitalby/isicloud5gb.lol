@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "locales/**"
+      - "scripts/build-readme.mjs"
 
 jobs:
   build-readme:

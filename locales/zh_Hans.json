@@ -1,0 +1,45 @@
+{
+    "meta": {
+        "title": "iCloud 免费套餐仍然只有 5GB 吗？",
+        "description": "是的。在这个时代，Apple 仍然只给你 5GB 的免费 iCloud 存储空间。",
+        "og_description": "是的。Apple 仍然只给你 5GB 免费空间。",
+        "twitter_description": "是的。Apple 仍然只给你 5GB 的免费 iCloud 存储空间。难以置信。"
+    },
+    "schema": {
+        "question": "iCloud 免费套餐仍然只有 5GB 吗？",
+        "answer": "是的。"
+    },
+    "main": {
+        "question": "iCloud 免费套餐仍然只有 5GB 吗？",
+        "answer": "是的。",
+        "answer_aria": "播放是的声音"
+    },
+    "info": {
+        "body_html": "Apple，一家市值<strong>超过 3 万亿美元</strong>的公司，自 <strong>2011</strong> 年推出以来仍提供相同的 <strong>5GB</strong> 免费 iCloud 存储空间。Google 给你 15GB。",
+        "incredible": "难以置信。"
+    },
+    "timeline": {
+        "today": "今天",
+        "storage_label": "5GB"
+    },
+    "share": {
+        "heading": "发给你的群聊：",
+        "subheading": "（或者你那个总是快没空间的妈妈）",
+        "copy_link": "复制链接",
+        "copied": "已复制！",
+        "threads_share_text": "iCloud 免费套餐仍然只有 5GB 吗？是的。https://isicloud5gb.lol"
+    },
+    "news": {
+        "heading": "订阅最新消息。",
+        "body": "当 Apple 终于更新免费套餐时，保持关注。",
+        "coming_soon": "即将推出。"
+    },
+    "footer": {
+        "disclaimer": "与 Apple 无关。只是失望而已。"
+    },
+    "readme": {
+        "title": "iCloud 免费套餐仍然只有 5GB 吗？",
+        "answer": "是的。",
+        "site_url": "https://isicloud5gb.lol"
+    }
+}
