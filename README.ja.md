@@ -16,7 +16,7 @@
 </a>
 [![GitHub Sponsor](https://img.shields.io/badge/GitHub-Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/digitalby)
 
-[English](README.md) | **日本語** | [Polski](README.pl.md) | [Русский](README.ru.md)
+[Deutsch](README.de.md) | [English](README.md) | [Español](README.es.md) | [Français](README.fr.md) | [हिन्दी](README.hi.md) | [Italiano](README.it.md) | **日本語** | [한국어](README.ko.md) | [Polski](README.pl.md) | [Português](README.pt.md) | [Русский](README.ru.md) | [Türkçe](README.tr.md) | [简体中文](README.zh_Hans.md) | [繁體中文](README.zh_Hant.md)
 
 ## FAQ
 
