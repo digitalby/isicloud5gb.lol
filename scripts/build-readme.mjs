@@ -132,7 +132,7 @@ const allLangEntries = localeFiles.map((file) => {
     r[k] = mergeWithFallback(localeReadme[k], enReadme[k]);
   }
   // lang_name may not be in enReadme keys if missing from en.json; handle it explicitly
-  r.lang_name = localeReadme.lang_name ?? enReadme.lang_name ?? lang;
+  r.lang_name = localeReadme.lang_name ?? lang;
 
   return { lang, r };
 });

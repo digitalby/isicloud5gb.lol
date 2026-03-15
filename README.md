@@ -16,7 +16,7 @@
 </a>
 [![GitHub Sponsor](https://img.shields.io/badge/GitHub-Sponsor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/digitalby)
 
-[English](README.de.md) | **English** | [English](README.es.md) | [English](README.fr.md) | [English](README.hi.md) | [English](README.it.md) | [日本語](README.ja.md) | [English](README.ko.md) | [Polski](README.pl.md) | [English](README.pt.md) | [Русский](README.ru.md) | [English](README.tr.md) | [English](README.zh_Hans.md) | [English](README.zh_Hant.md)
+[Deutsch](README.de.md) | **English** | [Español](README.es.md) | [Français](README.fr.md) | [हिन्दी](README.hi.md) | [Italiano](README.it.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Polski](README.pl.md) | [Português](README.pt.md) | [Русский](README.ru.md) | [Türkçe](README.tr.md) | [简体中文](README.zh_Hans.md) | [繁體中文](README.zh_Hant.md)
 
 ## FAQ
 
