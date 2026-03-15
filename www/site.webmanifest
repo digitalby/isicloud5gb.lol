@@ -2,6 +2,8 @@
   "name": "Is iCloud's Free Tier Still 5GB?",
   "short_name": "iCloud 5GB?",
   "description": "Yes. In this day and age, Apple still gives you a whopping 5GB of free iCloud storage.",
+  "lang": "en",
+  "dir": "ltr",
   "start_url": "/",
   "display": "browser",
   "background_color": "#1a1a2e",
@@ -28,6 +30,14 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ]
 }
