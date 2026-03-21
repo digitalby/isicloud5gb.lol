@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <PackageId>IsICloud5GB</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Yury Vashchylau</Authors>
+    <Company>isicloud5gb.lol</Company>
+    <Description>Is iCloud's free tier still 5GB? Yes. This package programmatically confirms what we all already know.</Description>
+    <PackageTags>icloud apple storage cloud free tier 5gb</PackageTags>
+    <PackageProjectUrl>https://isicloud5gb.lol</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/digitalby/isicloud5gb.lol</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="../../www/isicloud5gb.png" Pack="true" PackagePath="/icon.png" />
+  </ItemGroup>
+
+</Project>
