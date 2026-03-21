@@ -1,0 +1,36 @@
+name: Publish NuGet Package
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "nuget/v*.*.*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.x"
+
+      - name: Test
+        run: dotnet test IsICloud5GB.sln --configuration Release
+        working-directory: nuget
+
+      - name: Pack
+        run: dotnet pack -c Release
+        working-directory: nuget/IsICloud5GB
+
+      - name: Push to GitHub Packages
+        run: |
+          dotnet nuget push bin/Release/*.nupkg \
+            --source "https://nuget.pkg.github.com/digitalby/index.json" \
+            --api-key ${{ secrets.GITHUB_TOKEN }} \
+            --skip-duplicate
+        working-directory: nuget/IsICloud5GB
