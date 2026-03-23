@@ -13,7 +13,6 @@ authors = [
 ]
 keywords = ["icloud", "apple", "storage", "cloud", "free", "tier", "5gb"]
 classifiers = [
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
 ]
 requires-python = ">=3.8"
