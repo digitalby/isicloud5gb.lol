@@ -76,6 +76,16 @@ publishing {
                     ?: System.getenv("OSSRH_PASSWORD")
             }
         }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/digitalby/isicloud5gb.lol")
+            credentials {
+                username = providers.gradleProperty("gprUser").orNull
+                    ?: System.getenv("GITHUB_ACTOR")
+                password = providers.gradleProperty("gprKey").orNull
+                    ?: System.getenv("GITHUB_TOKEN")
+            }
+        }
     }
 }
 
