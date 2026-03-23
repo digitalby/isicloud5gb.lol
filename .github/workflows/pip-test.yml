@@ -16,7 +16,7 @@ jobs:
           python-version: "3.x"
 
       - name: Install package
-        run: pip install -e .
+        run: pip install -e . pytest
         working-directory: pip
 
       - name: Test
