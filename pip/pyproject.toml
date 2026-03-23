@@ -17,6 +17,9 @@ classifiers = [
 ]
 requires-python = ">=3.8"
 
+[tool.setuptools]
+packages = ["isicloud5gb"]
+
 [project.urls]
 Homepage = "https://isicloud5gb.lol"
 Repository = "https://github.com/digitalby/isicloud5gb.lol"
