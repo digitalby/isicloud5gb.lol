@@ -96,6 +96,6 @@ signing {
         ?: System.getenv("SIGNING_PASSWORD")
     if (signingKey != null && signingPassword != null) {
         useInMemoryPgpKeys(signingKey, signingPassword)
+        sign(publishing.publications["mavenJava"])
     }
-    sign(publishing.publications["mavenJava"])
 }
