@@ -1,0 +1,38 @@
+name: Publish pip Package
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "pip/v*.*.*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install build dependencies
+        run: pip install build pytest
+
+      - name: Test
+        run: |
+          pip install -e .
+          python -m pytest tests/
+        working-directory: pip
+
+      - name: Build
+        run: python -m build
+        working-directory: pip
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: pip/dist/
