@@ -15,16 +15,26 @@
   "type": "module",
   "main": "./index.cjs",
   "module": "./index.js",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
-      "import": "./index.js",
-      "require": "./index.cjs"
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.cjs"
+      }
     }
+  },
+  "scripts": {
+    "test": "node --test test.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalby/isicloud5gb.lol.git",
-    "directory": "isicloud5gb-js"
+    "directory": "npm"
   },
   "homepage": "https://isicloud5gb.lol",
   "bugs": {
