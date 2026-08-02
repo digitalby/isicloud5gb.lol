@@ -1,0 +1,43 @@
+{
+  "name": "isicloud5gb.lol",
+  "version": "1.0.0",
+  "description": "Is iCloud's free tier still 5GB?",
+  "keywords": [
+    "icloud",
+    "apple",
+    "5gb",
+    "yes",
+    "storage",
+    "disappointment"
+  ],
+  "author": "Yury Vashchylau",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.cjs"
+      }
+    }
+  },
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalby/isicloud5gb.lol.git",
+    "directory": "npm"
+  },
+  "homepage": "https://isicloud5gb.lol",
+  "bugs": {
+    "url": "https://github.com/digitalby/isicloud5gb.lol/issues"
+  }
+}
